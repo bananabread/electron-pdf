@@ -1,6 +1,6 @@
 {
   "name": "electron-pdf-js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A fork of the original electron-pdf package to add in additional features such as enabling javascript, debug mode and allowing use of insecure external content.",
   "main": "index.js",
   "scripts": {
