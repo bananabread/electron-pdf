@@ -1,8 +1,7 @@
-electron-pdf
-============
+electron-pdf-js
+===============
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]
 
 
@@ -76,11 +75,7 @@ Inspired by [electron-mocha](https://github.com/jprichardson/electron-mocha)
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/electron-pdf.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/electron-pdf
-[travis-image]: https://img.shields.io/travis/fraserxu/electron-pdf/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/fraserxu/electron-pdf
+[npm-image]: https://img.shields.io/npm/v/electron-pdf-js.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/electron-pdf-js
 [downloads-image]: http://img.shields.io/npm/dm/electron-pdf.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/electron-pdf
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[standard-url]: https://github.com/feross/standard
+[downloads-url]: https://npmjs.org/package/electron-pdf-js
