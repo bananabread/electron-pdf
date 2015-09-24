@@ -1,7 +1,7 @@
 {
-  "name": "electron-pdf",
-  "version": "0.4.0",
-  "description": "A command line tool to generate PDF from URL, HTML or Markdown files",
+  "name": "electron-pdf-js",
+  "version": "0.1.0",
+  "description": "A fork of the original electron-pdf package to add in additional features such as enabling javascript, debug mode and allowing use of insecure external content.",
   "main": "index.js",
   "scripts": {
     "test": "standard"
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fraserxu/electron-pdf.git"
+    "url": "https://github.com/bananabread/electron-pdf.git"
   },
   "keywords": [
     "electron",
     "electron-tool",
     "pdf"
   ],
-  "author": "Fraser Xu",
+  "author": "Ben Hargreaves",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fraserxu/electron-pdf/issues"
+    "url": "https://github.com/bananabread/electron-pdf/issues"
   },
-  "homepage": "https://github.com/fraserxu/electron-pdf",
+  "homepage": "https://github.com/bananabread/electron-pdf",
   "devDependencies": {
     "standard": "^5.1.0"
   },

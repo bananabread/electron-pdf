@@ -4,21 +4,19 @@ electron-pdf
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]
-[![js-standard-style][standard-image]][standard-url]
 
 
 A command line tool to generate PDF from URL, HTML or Markdown files with [electron](http://electron.atom.io/).
 
-I have a blog post explain why [PDF Generation On The Web](https://fraserxu.me/2015/08/20/pdf-generation-on-the-web/)
-
-![electron-pdf](https://cloud.githubusercontent.com/assets/1183541/9372796/6dc1089e-4715-11e5-8850-10dd9542aff8.gif)
-
+This is a fork of the original [electron-pdf](https://github.com/fraserxu/electron-pdf) package to add in additional
+options including enabling javascript to be executed, custom height/width of the rendering browser window, allowing
+use of external insecure content i.e. scripts and images and inclusion of a debug mode.
 
 Install
 -------
 
 ```
-npm install electron-pdf -g
+npm install electron-pdf-js -g
 ```
 
 Usage
@@ -36,6 +34,19 @@ Usage
     -i | --input               String - The path to the HTML file or url
     -o | --output              String - The path of the output PDF
     -c | --css                 String - The path to custom CSS
+
+    -h | --height              Integer - Height of the browser window in pixels
+    -w | --width               Integer - Width of the browser window in pixels
+
+    -d | --debug               Boolean - Whether to display the electron browser window for debugging.
+                                 false - default
+
+    -j | --javascript          Boolean - Whether to enable execution of javascript.
+                                 true - default
+
+    --insecureContent          Boolean - Whether to allow use of insecure content, i.e. external images/scripts
+                                 true - default
+
     -b | --printBackground     Boolean - Whether to print CSS backgrounds.
                                  false - true
     -s | --printSelectionOnly  Boolean - Whether to print selection only
@@ -52,7 +63,7 @@ Usage
     $ electron-pdf <input> <output> -l
 
   Examples
-    $ electron-pdf http://fraserxu.me ~/Desktop/fraserxu.pdf
+    $ electron-pdf http://benwritesco.de ~/Desktop/test.pdf
     $ electron-pdf ./index.html ~/Desktop/index.pdf
     $ electron-pdf ./README.md ~/Desktop/README.pdf -l
     $ electron-pdf ./README.md ~/Desktop/README.pdf -l -c my-awesome-css.css
