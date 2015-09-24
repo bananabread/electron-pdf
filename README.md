@@ -77,5 +77,5 @@ MIT
 
 [npm-image]: https://img.shields.io/npm/v/electron-pdf-js.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/electron-pdf-js
-[downloads-image]: http://img.shields.io/npm/dm/electron-pdf.svg?style=flat-square
+[downloads-image]: http://img.shields.io/npm/dm/electron-pdf-js.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/electron-pdf-js
