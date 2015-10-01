@@ -7,7 +7,7 @@
     "test": "standard"
   },
   "bin": {
-    "electron-pdf": "cli.js"
+    "electron-pdf-js": "cli.js"
   },
   "repository": {
     "type": "git",
